@@ -36,7 +36,7 @@ async function login(creds) {
       throw 'PASSWORD_MISMATCH';
     }
     return createToken(user);
-  } catch (err) {
+  }catch (err) {
     throw err;
   }
 }
