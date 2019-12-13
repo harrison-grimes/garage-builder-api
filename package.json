@@ -1,7 +1,7 @@
 {
-  "name": "vanilla_node_api",
+  "name": "garage_project_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "garage-api",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,11 +13,12 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^7.0.0",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "express-jwt": "^5.3.1",
     "express-jwt-permissions": "^1.3.0",
     "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
     "morgan": "^1.9.1",
     "uuid": "^3.3.2"
   }
